@@ -22,5 +22,7 @@ jobs:
       run: cargo build --verbose
     - name: Otro script
       run: echo Hello from Otro script      
+    - name: Run cargo fmt
+      run: cargo fmt -- --check      
     - name: Run tests
       run: cargo test --verbose
