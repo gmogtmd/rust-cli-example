@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build
       run: cargo build --verbose
+    - name: Otro script
+      run: echo Hello from Otro script      
     - name: Run tests
       run: cargo test --verbose
-    - name: Otro script
-      run: echo Hello from Otro script
